@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+.image-100 {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.mw-0 {
+  min-width: 0;
+}
+
+.beer-card {
+  &:hover {
+    background-color: #f2f8fd;
+  }
+}
